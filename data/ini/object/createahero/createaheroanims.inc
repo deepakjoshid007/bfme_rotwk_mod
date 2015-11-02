@@ -672,7 +672,7 @@ End
 			Animation					=	ReadyToDrawn
 				AnimationName			=	#(MODEL)_B_ATKA1
 				AnimationMode			=	ONCE
-//				UseWeaponTiming			=	Yes			// UseWeaponTiming plus random weapon field equals desync.  Leaving as warning
+				UseWeaponTiming			=	Yes			// UseWeaponTiming plus random weapon field equals desync.  Leaving as warning
 				//AnimationBlendTime		=	10
 			End
 		End
@@ -682,7 +682,7 @@ End
 			Animation					=	LooseReloadDraw
 				AnimationName			=	#(MODEL)_B_ATKA2
 				AnimationMode			=	ONCE
-//				UseWeaponTiming			=	Yes			// UseWeaponTiming plus random weapon field equals desync.  Leaving as warning
+				UseWeaponTiming			=	Yes			// UseWeaponTiming plus random weapon field equals desync.  Leaving as warning
 				AnimationSpeedFactorRange = 1.1 1.1		// Therefore, this is all you get.  A slight speed up so that the animation can always finish before any possible random value Design sets the range for
 				//AnimationBlendTime		=	10
 			End
@@ -712,7 +712,7 @@ End
 			Animation
 				AnimationName		= #(MODEL)_B_ATKA1
 				AnimationMode		= ONCE
-				UseWeaponTiming		= No			// UseWeaponTiming plus random weapon field equals desync.  Leaving as warning
+				UseWeaponTiming		= Yes			// UseWeaponTiming plus random weapon field equals desync.  Leaving as warning
 			End
 		End
 

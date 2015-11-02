@@ -13,8 +13,12 @@
 ;//	DisplayMeleeDamage		 = FARAMIR_DAMAGE
 ;//	DisplayRangedDamage		 = FARAMIR_BOW_DAMAGE
 	
-	VisionRange				 = CREATE_A_HERO_VISION_RANGE
-	ShroudClearingRange		 = SHROUD_CLEAR_CREATE_A_HERO
+	VisionRange				 = 470 //CREATE_A_HERO_VISION_RANGE
+	ShroudClearingRange		 = 320 //SHROUD_CLEAR_CREATE_A_HERO
+	
+	MaxVisionBonusPercent = 300%
+	VisionBonusTestRadius = 200
+	VisionBonusPercentPerFoot = 1.0%
 
 	BountyValue				 = GONDOR_FARAMIR_BOUNTY_VALUE
 	DisplayName				 = OBJECT:CreateAHero
