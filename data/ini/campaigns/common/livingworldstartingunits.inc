@@ -94,10 +94,10 @@ LivingWorldPlayerArmy
 End
 
 LivingWorldPlayerArmy
-	Name = GlorfindelPlayerArmy
+	Name = LegolasArmy
 	DisplayNameTag = LWA:ElvesHeroArmy	
 	ArmyEntry
-		ThingTemplate = ElvenGlorfindel
+		ThingTemplate = RohanLegolas
 		Quantity = 1
 	End
 End

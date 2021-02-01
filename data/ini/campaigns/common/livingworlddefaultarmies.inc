@@ -87,8 +87,8 @@ End
 SpawnArmy
 	ScriptingName = HeroArmy4
 	SpawnForTemplates = PlayerElves
-	HeroTemplateName = ElvenGlorfindel
-	PlayerArmy = GlorfindelPlayerArmy
+	HeroTemplateName = RohanLegolas
+	PlayerArmy = LegolasArmy
 	Icon = HeroGlorfindelIcon
 	Banner = BannerElves
 End
